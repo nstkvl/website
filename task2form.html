@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Форма</title>
+ </head>
+ <body>
+  <form>
+        First name:<br>
+   <p><input name="First name" type="text"
+    pattern="[A-ZА-Я]{1}[a-zа-я]{1,9}([-][A-ZА-Я]{1}[a-zа-я]{1,9}){0,1}">
+    <input type="submit">
+</p>
+        Age:<br>
+   <input type="number" name="Age"
+      min=10 max=40> 
+    <input type="submit">
+    <p>
+        Gender:<br>
+        <input type="radio" name="gender" value="male" > Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+        
+    </p>
+    <input type="submit">
+    <p>  Country
+    <select>
+            <option>Ukraine</option>
+            <option>USA</option>
+            <option>Canada</option>
+          </select>
+        
+        
+    </p>
+      <input type="submit">    
+    </form>
+ </body>
+</html>
